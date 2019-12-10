@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:500&display=swap');
+
+/** {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+}*/
+
+*{
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 500;
+  font size: 16px;
+  text-decoration: none;
+  text-align: center;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 22%;
+  padding: 15px;
+  cursor: pointer;
+}
+.headshot{
+  width: 22%;
+}
+.nav{
+    border:none;
+    background-color: #64ADBE;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    text-color: #FFFFFF;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding: 15px;
+}
+li a {
+  color: white;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: black;
+  color: white;
+}
+/* Add a color to the active/current link */
+.nav a.active {
+  background-color: #FFFFFF;
+  color: black;
+}
+hr{
+  border: none;
+}
+h3{
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 320px;
+  margin-right: 320px;
+  line-height: 40px;
+}
+h4{
+  margin-left: 245px;
+  margin-right: 245px;
+  line-height: 30px;
+}
+p{
+  margin-left: 245px;
+  margin-right: 245px;
+  line-height: 30px;
+}
+.container{
+  background-color: #e6f9ff;
+}
+button{
+  padding: 10px 15px;
+  border-width: medium;
+  border-color: #64ADBE;
+  background-color: #FFFFFF;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-size: 14px;
+}
+button:hover{
+background-color: #64ADBE;
+}
